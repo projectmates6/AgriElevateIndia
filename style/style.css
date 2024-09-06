@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +7,7 @@
 
 body{
     min-height: 100vh;
-    background: url(/SMART_FARMING/img/bg1.jpg) no-repeat;
+    background: url(/SMART_FARMING/img/bg2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
