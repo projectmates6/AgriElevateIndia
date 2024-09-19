@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 30px;
+    border-bottom: 2px solid #f1f1f1;
+  }
+  /* .logo {
+    display: flex;
+    text-align: center;
+  }
+  .logo p {
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+  } */
+
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    color: black;
+}
+
+  .logo img {
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: green;
+  }
+  
+  .language a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .language a:hover {
+    color: #28a745;
+  }
+  select{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+  }
+/* .help-section */
+.help-section {
+    background-color: #123119;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.help-section h2{
+    margin-bottom: 30px;
+}
+/* faq section  */
+.faq-section {
+    padding: 40px 400px;
+    text-align: center;
+    background-color: #f4f7f5;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.faq-section h3 {
+    font-size: 24px;
+    color: #42a729;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.faq-tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.faq-tools button i{
+    font-size: 18px;
+}
+
+.filter-btn {
+    background-color: #4c7043;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.filter-btn img {
+    margin-right: 8px;
+}
+
+.faq-search {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.faq-topic {
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.faq-topic h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.faq-topic p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.faq-topic p a {
+    color: #4c7043;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.faq-topic p a:hover {
+    color: #2b3d2f;
+}
+
+.answers {
+    color: #d79b3e;
+}
+
+.answers:hover {
+    color: #b07d31;
+}
+
+.faq-topic p span {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+/* Help Topics Section */
+.help-topics {
+    padding: 30px 20px;
+    background-color: rgba(144, 238, 144, 0.589);
+    border-radius: 8px;
+    margin: 20px auto;
+
+}
+
+.help-topics h3 {
+    font-size: 24px;
+    color: #134407;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.help-topics h2{
+    padding: 4px 600px;
+    display: flex;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.help-topics ul {
+    list-style-type: none;
+    padding: 10px 600px;
+}
+
+.help-topics ul li {
+    margin-bottom: 15px;
+}
+
+.help-topics ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #c2b3b3;
+    transition: color 0.3s ease;
+}
+
+.help-topics ul li a:hover {
+    color: #2b3d2f;
+    text-decoration: underline;
+}
+
+.video-tutorials {
+    padding: 40px 20px;
+    text-align: center;
+}
+.video-tutorials h3{
+    font-size: 24px;
+    color: #134407 ;
+    margin-bottom: 40px;
+}
+
+.video {
+    margin: 20px 0;
+}
+.video h4{
+    padding: 10px;
+}
+
+.video-box {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    background-color: #ccc;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #333;
+}
+
+.contact-section {
+    background-color: #d8e1d3;
+    text-align: center;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-btn {
+    background-color: #77c58c;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    align-self: center;
+}
+.contact-btn:hover{
+    background-color: green;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+}
+/* Footer Section */
+footer {
+    background-color: #1f3233;
+    color: #fff;
+    padding: 50px 0;
+    text-align: left;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-item {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-item h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .footer-item p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  #ww img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  .footer-item ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer-item ul li {
+    margin-bottom: 7px;
+  }
+  
+  .footer-item ul li a {
+    color: #c7dec3;
+    text-decoration: none;
+  }
+  
+  .footer-item ul li a:hover {
+    text-decoration: underline;
+  }
+  .footer-item p {
+    padding: 5px;
+  }
+  footer p.copyright {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    background-color: #1b2828;
+    color: #eaf6e8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }

@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgriElevate India-Login/Sign up</title>
+    <link rel="stylesheet" href="../css/account.css" />
+  </head>
+  <body>
+        <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="../index.html"><img src="../img/logo.jpg" alt="AgriElevate India Logo"/></a>
+          <a href="../index.html">AgriElevateIndia</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../pages/about.html">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="../pages/account.html">Log In/Sign Up</a></li>
+          <li><a href="../pages/help.html">Help</a></li>
+          <li><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+        <div class="language">
+          <a href="#">Select Language</a>
+          <select>
+            <option value="en">English</option>
+            <option value="hi">हिंदी</option>
+            <option value="pun">ਪੰਜਾਬੀ</option>
+          </select>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="signup-section">
+        <h2>Join the Community</h2>
+        <p>Sign up to hire labor, rent machinery, or find work</p>
+
+        <form action="" method="POST" class="signup-form">
+          <div class="form-group left">
+            <label for="name">Full Name :</label>
+            <input type="text" id="name" name="name" placeholder="Full Name" />
+          </div>
+
+          <div class="form-group right">
+            <label for="phone">Phone Number :</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Phone Number"
+            />
+          </div>
+
+          <div class="form-group left">
+            <label for="email">Email Address :</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+            />
+          </div>
+
+          <div class="form-group right">
+            <label for="account-type">Account Type :</label>
+            <select id="account-type" name="account-type">
+              <option value="" disabled selected>Account Type</option>
+              <option value="farmer">Farmer</option>
+              <option value="contractor">Contractor</option>
+            </select>
+          </div>
+
+          <div class="form-group left">
+            <label for="state">State :</label>
+            <select id="state" name="state">
+              <option value="" disabled selected>State</option>
+              <option value="state1">State 1</option>
+              <option value="state2">State 2</option>
+            </select>
+          </div>
+
+          <div class="form-group right">
+            <label for="district">District :</label>
+            <select id="district" name="district">
+              <option value="" disabled selected>District</option>
+              <option value="district1">District 1</option>
+              <option value="district2">District 2</option>
+            </select>
+          </div>
+
+          <div class="form-group left">
+            <label for="pin-code">Pin Code :</label>
+            <input
+              type="text"
+              id="pin-code"
+              name="pin-code"
+              placeholder="Pin Code"
+            />
+          </div>
+
+          <div class="form-group right">
+            <label for="password">Password :</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+            />
+          </div>
+
+          <div class="form-group left">
+            <label for="confirm-password">Confirm Password :</label>
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              placeholder="Confirm Password"
+            />
+          </div>
+
+          <button type="submit" class="signup-button">Sign Up</button>
+        </form>
+
+        <div class="social-signup">
+          <p>Or</p>
+          <button class="google-signup">Sign Up with Google</button>
+          <button class="facebook-signup">Sign Up with Facebook</button>
+        </div>
+
+        <p>Already have an account? <a href="#">Log in Here</a></p>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-item">
+          <h4>AgriElevate India</h4>
+          <p>
+            There are many variations of passages of lorem ipsum available, but
+            the majority suffered.
+          </p>
+          <div class="social-iconss">
+            <a id="ww" href="#"><img src="../img/insta.jpg" alt="Instagram" /></a>
+            <a id="ww" href="#"><img src="../img/linkdin.jpg" alt="LinkedIn" /></a>
+            <a id="ww" href="#"><img src="../img/twitter.jpg" alt="Twitter" /></a>
+            <a id="ww" href="#"><img src="../img/youtube.jpg" alt="YouTube" /></a>
+          </div>
+        </div>
+        <div class="footer-item">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about.html">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="../pages/help.html">Help</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <h4>Contact</h4>
+          <p><strong>Phone:</strong> 006688884746</p>
+          <p><strong>Email:</strong> needhelp@company.com</p>
+          <p><strong>Website:</strong> www.company.com</p>
+          <p><strong>Location:</strong> Baba Farid Group Of Institutions</p>
+        </div>
+      </div>
+      <p class="copyright">
+        © Copyright 2024 by AgriElevate India All Rights Reserved
+      </p>
+    </footer>
+  </body>
+</html>

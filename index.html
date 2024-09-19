@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgriElevateIndia</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="container1">
@@ -17,21 +17,28 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="pages/about.html">About</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">Log In/Sign Up</a></li>
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="pages/account.html">Log In/Sign Up</a></li>
+                    <li><a href="pages/help.html">Help</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
                 </ul>
             </nav>
-            <div class="language-selector">Select Language</div>
+            <div class="language">
+                <a href="#">Select Language</a>
+                <select>
+                  <option value="en">English</option>
+                  <option value="hi">हिंदी</option>
+                  <option value="pun">ਪੰਜਾਬੀ</option>
+                </select>
+              </div>
             <div class="account">
                 <img src="img/profile_icon.png" alt="profile icon">
             </div>
         </div>
     </header>
 
-    <section class="hero">
+    <section class="hero hidden">
         <h1>Empowering Farmers with Easy Access to Labor and Machinery</h1>
         <p>Connecting farmers to laborers and providing essential equipment on rent to boost productivity.</p>
         <div class="buttons">
@@ -41,7 +48,7 @@
         </div>
     </section>
 
-    <section class="services">
+    <section class="services hidden">
         <div class="card">
             <img src="img/labour.png" alt="Agriculture Labour">
             <h2>Agriculture Labour</h2>
@@ -56,10 +63,10 @@
 </div>
 
 <!-- page 2 -->
-<div class="container2">
+<div class="container2 hidden">
     <section class="about-us">
         <div class="about-container">
-            <img src="img/corn_field.png" alt="Corn Field">
+            <img src="img/field.png" alt="Corn Field">
             <div class="about-text">
                 <h3>About Us</h3>
                 <h2>Find Skilled Labour and Rent Machinery for Your Farm in Just One Click</h2>
@@ -71,7 +78,7 @@
 </div>
 
 <!-- page 3 -->
- <div class="container3">
+ <div class="container3 hidden">
     <section class="why-choose-us"><h2>Why Choose Us?</h2></section>
         <!-- <h2>Why Choose Us?</h2> -->
         <div class="features-container">
@@ -95,7 +102,7 @@
  </div>
 
  <!-- page 4 -->
-  <div class="container4">
+  <div class="container4 hidden">
     <section class="testimonials"></section>
         <h3>What Clients Say</h3>
         <h1>Testimonials</h1>
@@ -109,7 +116,7 @@
   </div>
 
   <!-- page 5 -->
-   <div class="container5">
+   <div class="container5 hidden">
     <!-- FAQ Section -->
     <section class="faq-section">
         <h3>Frequently Asked Questions</h3>
@@ -132,7 +139,7 @@
     </section>
    </div>
 
-   <div class="container6">
+   <div class="container6 hidden">
     <!-- Call to Action Section -->
     <section class="cta-section">
         <h2>Ready to Boost Your Farm's Productivity?</h2>
@@ -145,7 +152,7 @@
 
     <!-- Footer Section -->
     <footer>
-        <div class="footer-container">
+        <div class="footer-container hidden">
             <div class="footer-item">
                 <h4>AgriElevate India</h4>
                 <p>There are many variations of passages of lorem ipsum available, but the majority suffered.</p>
@@ -156,19 +163,19 @@
                     <a id="ww" href="#"><img src="img/youtube.jpg" alt="YouTube"></a>
                 </div>
             </div>
-            <div class="footer-item">
+            <div class="footer-item hidden">
                 <h4>Links</h4>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="pages/about.html">About</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="pages/help.html">Help</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Terms and Conditions</a></li>
                 </ul>
             </div>
-            <div class="footer-item">
+            <div class="footer-item hidden">
                 <h4>Contact</h4>
                 <p><strong>Phone:</strong> 006688884746</p>
                 <p><strong>Email:</strong> needhelp@company.com</p>
@@ -179,5 +186,6 @@
         <p class="copyright">© Copyright 2024 by AgriElevate India All Rights Reserved</p>
     </footer>
    </div>
+ <script src="js.js"></script>
 </body>
 </html>
